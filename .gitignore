@@ -1,0 +1,5 @@
+outputs/
+.venv/
+configs/w12
+download_ts.py
+README_secret.md

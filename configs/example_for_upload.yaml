@@ -1,0 +1,7 @@
+video:
+  base_url: "https://your_base_url"
+  signed_query: "your_signed_query"
+  output_dir: "outputs/path/to/output_dir"
+  max_segments: 1500 # If you want to download video longer than 1h, I recommend at least 1000 max_segments (when each .ts file is 4~5s long)
+  workers: 10 # It's up to you
+  video_name: "your_result_video_name.mp4"
