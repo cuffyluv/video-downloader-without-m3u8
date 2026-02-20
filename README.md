@@ -24,9 +24,9 @@
 예시를 들어드리자면 다음과 같을 것 같고요(둘다 병렬 버전 기준):
 ```bash
 # ffmpeg 사용
-ffmpeg -http_seekable 0 -http_persistent 1 -http_multiple_requests 1 -threads 0 -i "https://path/to/your/m3u8/file.m3u8" -c copy video.mp4
+ffmpeg -http_seekable 0 -http_persistent 1 -threads 0 -i "https://path/to/your/m3u8/file.m3u8" -c copy video.mp4
 # yt-dlp 사용
-yt-dlp --concurrent-fragments 16 --no-part --retries infinite --fragment-retries infinite "https://path/to/your/m3u8/file.m3u8" -o "video.mp4"
+yt-dlp --concurrent-fragments 16 "https://path/to/your/m3u8/file.m3u8" -o "video.mp4"
 ```
 참고로 로그인이 필요한 동영상이어서 cookie 사용이 필요하면 yt-dlp를 사용하셔도 되는데, 그게 아니라면 굳이 사용하실 필요는 없습니다. 순정 ffmpeg가 더 나을 거에요.
 
