@@ -4,7 +4,7 @@
 
 ## Disclaimer
 <h3 align="center">
-    🚨 본 레포지토리는 MIT License by <a href="https://github.com">fluffyluv</a>를 따르며, 레포지토리 개발자는 본 레포지토리를 활용한 어떠한 행위에 대해서도 법적으로 보증하지 않습니다!!
+    🚨 본 레포지토리는 MIT License by <a href="https://github.com/fluffyluv">fluffyluv</a>를 따르며, 레포지토리 개발자는 본 레포지토리를 활용한 어떠한 행위에 대해서도 법적으로 보증하지 않습니다!!
 </h3>
 <h3 align="center">
     🚨 본 레포지토리를 활용해 download가 금지된 저작권이 있는 영상을 다운로드한다면, 법적 책임을 물 수 있습니다!! 시도하지 마시길 바랍니다.
